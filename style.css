@@ -1,3 +1,67 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    background-color: gray;
+}
+*{
+    font-family: inter;
+    color: rgb(107, 106, 106);
+    margin: 0;
+    padding: 0;
+}
+.box{
 
+    height: 85vh;
+    display: grid;
+    width: 100vw ;
+    justify-content: center;
+}
+.grid1_container{
+    width: 800px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid2_container{
+display: flex;
+flex-direction: column;
+height:  100%;
+}
+.column1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.inner-right{
+    padding: 75px;
+    display: flex;
+    flex-direction: column;
+align-self: center;
+justify-self: center;
+}
+input{
+    color: black;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+border-radius: 6px;
+border: 1px solid black
+}
+label{
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+button{
+    color: white;
+    padding: 8px;
+    margin-top:5px ;
+    margin-bottom:5px ;
+    background-color: black;
+    border: none;
+    outline: none;
+}
+.item1{
+    margin-top: 8px;
+    margin-left: 5px;
+}

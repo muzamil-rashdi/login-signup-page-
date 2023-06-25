@@ -8,31 +8,40 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 </head>
-<body>
-    <div id ="grid1_container">
-              <div id="column1"><lottie-player src="https://assets9.lottiefiles.com/packages/lf20_bu1y6oml.json"  background="transparent"  speed="1.2"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player></div>
-              <div id="grid2_container">
-                <p>BACK</p>
-                <div><h1>ACCOUT LOGIN </h2>
+<body >
+    <div class="box">
+    <div class ="grid1_container">
+              <div class="column1"><lottie-player src="https://assets9.lottiefiles.com/packages/lf20_bu1y6oml.json"  background="transparent"  speed="1.2"  style="width: 350px; height: 300px;"  loop  autoplay></lottie-player></div>
+
+              <div class="column2 grid2_container">
+
+                <p class ="item1">&lt; BACK</p>
+                <div class="inner-right">          
+                         <h2 style="color: black;">Accout login</h2>
                     <p>
-                        if you are already a member you can login with your email adress and password
+                        <small>if you are already a member you can login with your email adress and password</small>
                     </p>
-                </div>
-                <div>
+                
+                
                     <label for="name">name</label>
-                    <input type="text" id="name">
+                   
+                    <input type="text" id="name" >
+                 
                     <label for="email">email</label>
+                
                     <input type="text" id="email">
-                </div>
-                <div>
+              
+              
    
-                    <input type="checkbox" id="checkbox">
-                    <label for="checkbox">remeber me</label>
+                   
+                    <label for="checkbox"> <input type="checkbox" id="checkbox">  remeber me</label>
   
                     <button>register account</button>
-                    <p>dont have acoount?.. <a href="#">sing up here</a></p>
+                    <small><p>dont have acoount?.. <a href="#" style="color: blue; text-decoration: none;">sing up here</a></p></small>
+               
                 </div>
-              
+
     </div>
+</div>
 </body>
 </html>
