@@ -11,10 +11,11 @@ body{
 }
 .box{
 
-    height: 85vh;
-    display: grid;
+    height: 100vh;
+    display: flex;
     width: 100vw ;
     justify-content: center;
+    align-items: center;
 }
 .grid1_container{
     width: 800px;
@@ -49,6 +50,7 @@ border-radius: 6px;
 border: 1px solid black
 }
 label{
+    font-size: 14px;
     margin-top: 8px;
     margin-bottom: 5px;
 }
